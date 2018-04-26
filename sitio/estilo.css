@@ -1,0 +1,149 @@
+/* RESET GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Tajawal', sans-serif;
+
+}
+
+header{
+  padding: 20px;
+  display: flex;
+  background: #fafafa;
+  border-bottom: 2px solid #2A92B0;
+}
+
+header nav{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+header nav a{
+  background: #2A92B0;
+  color:#fff;
+  padding: 10px 20px 2px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+header nav a:hover{
+  background: #8E0066;
+}
+
+header nav a.activo{
+  background: #8E0066;
+}
+
+/** INDEX.HTML **/
+
+section.banner{
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.banner h1{
+  text-align: center;
+  color:#fff;
+  font-size: 3rem;
+}
+
+section.descripcion{
+  display: flex;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section.descripcion .columna{
+  width: 50%;
+  padding: 20px;
+}
+
+section.descripcion p{
+  margin: 20px 0;
+}
+
+
+/** ATRACCIONES.HTML **/
+
+
+section.banner2{
+  background-image: url(img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.banner2 h1{
+  text-align: center;
+  color:#fff;
+  font-size: 3rem;
+}
+
+
+
+section.atracciones{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+section.atracciones .imagen{
+  width: 30%;
+}
+
+section.atracciones .imagen img{
+  width: 100%;
+}
+
+section.atracciones .texto{
+  width:70%;
+  padding: 20px;
+}
+
+section.atracciones .texto h2{
+  color:#8E0066;
+  border-bottom: 2px solid #2587A7;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+
+/**** GALERIA.HTML ***/
+section.galeria{
+  display: flex;
+}
+section.galeria .imagen{
+  margin: 20px;
+}
+section.galeria .imagen img{
+  width: 100%;
+}
+
+/*** FOOTER **/
+footer{
+  display: flex;
+  background: #8E0066;
+  padding: 20px;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+footer nav{
+  margin-left: auto;
+}
+footer nav a{
+  margin: 0 10px;
+  color:#fff;
+}
